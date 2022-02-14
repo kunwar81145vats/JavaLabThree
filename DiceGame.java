@@ -20,7 +20,7 @@ public class DiceGame
         System.out.println("\nCreating default die d6 with 6 sides...");
 
         die6 = new Die();
-        die10 = new Die(10, "Tenner");
+        die10 = new Die(10, "Tanner");
         die20 = new Die(20);
 
         die6.printCurrentFace();
